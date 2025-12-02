@@ -1,0 +1,62 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Dias"
+    }
+  ],
+  "accounts": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "name": "Kaspi Alaqan",
+      "balance": 0.0,
+      "currency": "KZT"
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "name": "Kaspi Alaqan",
+      "balance": 900000000000.0,
+      "currency": "KZT"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "name": "зарплата",
+      "parent_id": null
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "name": "продукты",
+      "parent_id": null
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "acc_id": 2,
+      "cat_id": 1,
+      "amount": 10000000.0
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "acc_id": 2,
+      "cat_id": 1,
+      "amount": 10000000.0
+    },
+    {
+      "id": 3,
+      "user_id": 1,
+      "acc_id": 2,
+      "cat_id": 1,
+      "amount": -10000.0
+    }
+  ],
+  "budgets": []
+}

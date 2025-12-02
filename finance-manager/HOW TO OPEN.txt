@@ -1,0 +1,28 @@
+1. Перейти в папку проекта
+
+cd C:\Users\dias\Desktop\finance-manager
+
+2. Проверка на наличие кода
+
+dir app
+
+3. Активировать окружение
+
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+.venv\Scripts\Activate.ps1
+
+4. Установка пип
+
+pip install -r requirements.txt
+
+5. Пайтест
+
+python -m pytest
+
+6.Запуск
+
+streamlit run app.py
+
+7. Пайтест
+
+ python -m pytest
